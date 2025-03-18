@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos de Repetição</title>
+</head>
+<body>
+        
+        <ul style="list-style-type: circle";> 
+            
+            <h1>Comandos de Repetição</h1> 
+
+            <p>Os comandos de repetição são um recurso que permite que um certo trecho do código de um programa seja repetido um certo número de vezes.
+
+            <br><br> Na liguagem C existem três comandos de repetição: while, do-while e for.</p>
+
+            <h2><li>Comando while</li></h2>
+
+            O comando while permite que um certo trecho de programa seja executado ENQUANTO uma certa condição for verdadeira. A forma do comando while é a seguinte:
+
+            <br><br>
+            while (condição)
+            <br>
+            {
+                <br>
+            // comandos a serem repetidos
+            <br> 
+            // comandos a serem repetidos
+            <br>
+            }
+            <br>
+            // comandos após o 'while'
+            <br><br>
+
+            O funcionamento é o seguinte: <br><br>
+            <ol>
+                <li>Testa a condição;</li>
+                <br>
+                <li>Se a  condição for falsa então pula todos os comandos do bloco subordinado ao while e passa a executar os comandos após o bloco do while.</li>
+                <br>
+                <li>Se  condição for verdadeira então executa cada um dos comandos do bloco subordinado ao while.</li>
+                <br> 
+                <li>Após executar o último comando do bloco do while volta ao passo 1.</li>
+                <br><br>
+            </ol>
+
+            O comando while deve ser usado sempre que:
+            <br><br>
+            <ul style="list-style-type: disc;">
+                <li>não soubermos exatamente quantas vezes o laço deve ser repetido;</li>
+                <br>
+                <li>o teste deva ser feito antes de iniciar a execução de um bloco de comandos;</li>
+                <br>
+                <li>houver casos em que o laço não deva ser repetido nenhuma vez.</li>
+                <br>
+            </ul>
+
+            <h2><li>Comando do-while</li></h2>
+
+            O comando do-while permite que um certo trecho de programa seja executado ENQUANTO uma certa condição for verdadeira. A forma do comando do-while é a seguinte:
+            <br><br>
+            do
+            <br>
+            {
+            <br>
+            // comandos a serem repetidos
+            <br>
+            // comandos a serem repetidos
+            <br>
+            } while (condição);
+            <br>
+            // comandos após o 'do-while'
+            <br><br>
+
+            
+            O funcionamento é o seguinte:
+            <br><br>
+
+            <ol>
+                <li>Executa os comando dentro do bloco do-while;</li>
+                <li>Executa os comando dentro do bloco do-while;</li>
+                <li>Se a  condição for falsa então executa o comando que está logo após o bloco subordinado ao do-while.</li>
+                <li>Se  condição for verdadeira então volta ao passo 1.</li>
+            </ol>
+
+            <br><br>
+
+            O comando do-while deve ser usado sempre que:
+            <br><br>
+            <ul style="list-style-type: disc;">
+                <li>que não soubermos exatamente quantas vezes o laço deve ser repetido;</li>
+                <li>o teste deva ser feito depois da execução de um bloco de comandos;</li>
+                <li>o bloco de comandos deve se executado pelo menos 1 vez;</li>
+            </ul>
+            
+            <h2><li>Comando for</li></h2>
+
+            O comando for permite que um certo trecho de programa seja executado um determinado número de vezes.
+            <br>
+            A forma do comando for é a seguinte:
+            <br><br>
+            for (comandos de inicialização;condição de teste;incremento/decremento)
+            {
+            <br>
+            // comandos a serem repetidos
+            <br>
+            // comandos a serem repetidos
+            <br>
+            }
+            <br>
+            // comandos após o 'for'
+            <br><br>
+
+            O funcionamento é o seguinte:
+            <br><br>
+            <ol>
+                
+                <li>Executa os comandos de inicialização;</li>
+                <li>Testa a condição;</li>
+                <li>Se a  condição for falsa então executa o comando que está logo após o bloco subordinado ao for.</li>
+                <li>Se  condição for verdadeira então executa os comandos que estão subordinados ao for;</li>
+                <li>Executa os comandos de incremento/decremento;</li>
+                <li>Volta ao passo 2.</li>
+
+            </ol>
+
+            <br><br>
+            O comando for deve ser usado sempre que:
+            <br><br>
+            <ul style="list-style-type: disc;">
+                <li>soubermos exatamente quantas vezes o laço deve ser repetido;</li>
+                <li>o teste deva ser feito antes da execução de um bloco de comandos;</li>
+                <li>houver casos em que o laço não deva ser repetido nenhuma vez.</li>
+            </ul>
+
+            <h2><li>Comando de Desvios</li></h2>
+
+            Os laços em C possuem dois comandos de desvios: break e continue. Estes comandos funcionam com todos os comandos de repetição.
+            <br><br>
+            O comando break encerra o laço no ponto em que for executado. 
+            <br><br>
+            O comando continue desvia o fluxo para o início do laço.
+            <br><br>
+
+    </ul>
+</body>
+</html>
